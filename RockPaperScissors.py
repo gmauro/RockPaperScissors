@@ -21,7 +21,7 @@ def rock_paper_scissors():
     opponentsRandomChoice =random.choice(opponentsList);
     print(opponentsRandomChoice)
     print("You have chosen",myChoice)
-    print("Your oppponent has choosen",opponentsRandomChoice)
+    print("Your opponent has choosen",opponentsRandomChoice)
     print("")
     if (opponentsRandomChoice == 'Rock' and myChoice == 'Paper'):
         print("You win")
